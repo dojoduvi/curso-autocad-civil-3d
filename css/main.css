@@ -1,0 +1,193 @@
+*{
+    /* background-color: #FFF; */
+    font-family: Poppins, serif;
+}
+
+header,
+.navbar-brand,
+footer,
+.accordion-button,
+.accordion-button.collapsed{
+    background-color: #2B3035;
+    color: #FFF;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.accordion-button,
+.accordion-button:hover{
+    color: #FFF;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #2B3035;
+}
+
+section h2{
+    color: #2B3035;
+    border-bottom: 2px solid #2B3035;
+}
+
+section p{
+    text-align: justify;
+}
+
+del{
+    color: red;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.mini{
+    font-size: .8em;
+    margin-bottom: -4px;
+}
+
+ul{
+    list-style: none;
+}
+
+aside li,
+.accordion-collapse li{
+    margin-left: -30px;
+}
+
+#mentor .col-3{
+    margin: 0px;
+}
+
+#mentor .col-9{
+    margin-left: -100px;
+}
+
+.instrutor{
+    color: #5624d0;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.qualifica-instrutor{
+    color: rgba(43,48,53,0.6);
+}
+
+#mentor img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.gold{
+    color: goldenrod;
+}
+
+.card-footer .bi{
+    color: #2B3035;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    
+}
+
+#smi a{
+    font-size: 1.5em;
+}
+
+aside .card{
+    margin-top: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body a{
+    color: #2B3035;
+    text-decoration: none;
+}
+
+
+/* PARA RESOLUÇÃO DE SMARTPHONES */
+
+@media screen and (max-width: 767px){
+    #cabecalho .container{
+        display: block;
+        margin: 0 auto;
+    }
+
+    section h2{
+        font-size: 1.16em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    section h4, h5{
+        font-size: 1.1em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    #mentor img{
+        width: 100px;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        font-size: 1.58em;
+    }
+    
+    #mentor .col-3{
+        margin: 0px;
+    }
+
+    #mentor .col-9{
+        margin-left: 5px;
+    }
+
+    
+    #smi{
+        text-align: center;
+    }
+
+    #smi a{
+        font-size: 1.5em;
+    }
+    
+    .accordion-button{
+        font-size: .9em;
+        
+    }
+}
+
+/* PARA RESOLUÇÃO DE TABLETS */
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .container{
+        max-width: 100%;
+    }
+
+    #mentor ul{
+        margin-left: 50px;
+    }
+    
+
+    .mini{
+        font-size: .8em;
+        margin-bottom: -1px;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    #smi a{
+        font-size: 1.1em;
+    }
+}
